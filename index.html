@@ -421,8 +421,6 @@
 <script type="module">
   // =====================================================================
   // FIREBASE CONFIG — MCED (Madison County Economic Development) project
-  // Replace with a NEW Firebase project's config — do not reuse the
-  // Heartland MPO project, so the two orgs' poll data stay separate.
   // =====================================================================
   const firebaseConfig = {
     apiKey: "AIzaSyB73dZ44rF0bZQADh-Vc95ZKzI79Mks5Cg",
@@ -1119,7 +1117,7 @@
     '<div class="panel">' +
       '<div class="field">' +
         '<label class="field-label">Poll title <span class="required-mark">*</span></label>' +
-        '<input type="text" id="f-title" placeholder="e.g. Q3 Steering Committee Sync" value="' + escapeHtml(state.titleDraft) + '">' +
+        '<input type="text" id="f-title" placeholder="e.g. Q3 Board Meeting" value="' + escapeHtml(state.titleDraft) + '">' +
       '</div>' +
       '<div class="field">' +
         '<label class="field-label">Description (optional)</label>' +
